@@ -2,9 +2,18 @@
 
 /* SDK Document */
 
+vd-document::part(instructions_guide_modal) {
+  background-color: orange;
+}
+vd-document::part(instructions_slide_box) {
+  background-color: purple;
+}
+
 vd-document::part(loading_container) {
   background-color: pink;
 }
+
+
 
 vd-document::part(review_image_container) {
   background-color: red;
