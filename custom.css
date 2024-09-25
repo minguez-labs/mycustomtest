@@ -3,16 +3,16 @@
 /* SDK Document */
 
 vd-document::part(loading_container) {
-  background-color: #fff;
+  background-color: pink;
 }
 
 vd-document::part(review_image_container) {
-  background-color: #072146;
+  background-color: red;
 }
 
 
 vd-document::part(capture_glowing_outline_container ){
-  border-color: #fff;
+  border-color: olive;
   border-radius: 14px;
   border-width: 4px;
   box-shadow: 0 0 0 9999px rgba( 4,50,99, .85);
