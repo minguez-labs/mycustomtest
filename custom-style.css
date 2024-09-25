@@ -13,6 +13,11 @@ vd-guide-modal::part(instructions_slide_box) {
     background-color: purple;
 }
 
+vd-document::part(slide_box) {
+    background-color: olive;
+  }
+
+
 vd-document::part(loading_container) {
   background-color: pink;
 }
