@@ -1,7 +1,3 @@
-/* Custom styles for the document capture process */
-
-/* SDK Document */
-
 vd-document::part(instructions_guide_modal) {
   background-color: orange;
 }
