@@ -1,0 +1,76 @@
+vd-document::part(instructions_guide_modal) {
+  background-color: orange;
+}
+vd-document::part(instructions_slide_box) {
+  background-color: purple;
+}
+
+vd-guide-modal::part(instructions_guide_modal) {
+  background-color: orange;
+}
+
+vd-guide-modal::part(instructions_slide_box) {
+    background-color: purple;
+}
+
+vd-document::part(loading_container) {
+  background-color: pink;
+}
+
+
+vd-view-manager::part(loading_container) {
+    background-color: pink;
+  }
+
+  vd-document::part(display_message_container) {
+    background-color: #eb3d1e;
+  }
+  
+  vd-document::part(display_message_text) {
+    color: orange;
+  }
+  
+  vd-document::part(head_steps) {
+    color: #ffffff;
+  }
+
+
+
+vd-document::part(review_image_container) {
+  background-color: red;
+}
+
+
+vd-document::part(capture_glowing_outline_container ){
+  border-color: olive;
+  border-radius: 14px;
+  border-width: 4px;
+  box-shadow: 0 0 0 9999px rgba( 4,50,99, .85);
+}
+vd-document::part(capture_glowing_outline_container_success){
+  border-color: #277A3E;
+  border-radius: 14px;
+  border-width: 4px;
+  box-shadow: 0 0 0 9999px rgba( 4,50,99, .85);
+}
+
+
+/* text box front docuemnt */
+vd-document::part(capture_display_message){
+  background-color: rgba( 4,50,99, .85);
+  padding: 16px 24px;
+  border-radius: 1px;
+}
+vd-document::part(capture_display_message_text){
+      color: #fff;
+}
+
+/* svg check smoke */
+/* Cambio por imagen en capture_success_tick_img validar que es?  se pude poner colores transparentes y la imagen con fondo? en la docu parece que hay un gif */
+vd-document::part(capture_success_tick_circle) {
+      stroke: #277A3E;
+}
+
+vd-document::part(capture_success_tick_path) {
+  stroke: #ffffff;
+}
